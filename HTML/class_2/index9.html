@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+           
+        }
+        div{
+            border: 2px solid rgba(26, 103, 175, 0.71);
+            border-radius: 20px;
+            margin: 10px;
+            padding: 10px 10px 10px 170px;
+            height: 30vw;
+            align-content: center;
+            background-color: transparent;
+        }
+      
+
+        button{
+            background-color: rgb(0, 81, 255);
+            color: white;
+            padding: 5px 500px 5px 500px;
+            border-radius: 5px;   
+        }
+
+    </style>
+</head>
+
+<body>
+    <div>
+    <h2>Registration</h2><br><br>
+    <form>
+        <label for="name">Full Name</label><br>
+        <input type="text" id="name" placeholder="Enter your name"><br><br>
+
+        <label for="username">Username</label><br>
+        <input type="text" id="username" placeholder="Enter your username">
+       <br><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" placeholder="Enter your email"><br><br>
+        
+          <label for="number">Phone Number</label><br>
+        <input type="text" id="number" placeholder="Enter your number"><br><br>
+
+        <label for="password">Password</label><br>
+        <input type="password" id="password" placeholder="Enter your password"><br><br>
+        
+        <label for="Cpassword"> Confirm Password</label><br>
+        <input type="password" id="Cpassword" placeholder="Confirm your password"><br><br>
+        
+        <label for="Gender"> Gender</label><br>
+        <input type="radio" id="Male" name="Gender">
+        <label for="Male"> Male </label>
+        <input type="radio" id="Female" name="Gender">
+        <label for="Female"> Female </label>
+        <input type="radio" id="Prefer not to say" name="Gender">
+        <label for="Prefer not to say"> Prefer not to say</label>
+        <br><br>
+        <button>Register</button>
+    </form>
+    </div>
+
+</body>
+
+</html>
