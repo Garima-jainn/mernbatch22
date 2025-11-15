@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        form {
+            border: 2px solid;
+            margin: 0 auto;
+            height: auto;
+            width: 445px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+
+        h2 {
+            background-color: rgba(4, 71, 90, 0.845);
+            color: white;
+            text-align: center;
+        }
+
+        .formitems {
+            padding: 0 30px 4px 10px;
+        }   
+
+        button {
+            background-color: rgba(27, 98, 110, 0.966);
+            color: white;
+            width:400px;
+        }
+
+        div {
+            width: 50%;
+        }
+
+        span input {
+            width: 200px;
+        }
+
+        input {
+            width: 400px;
+            
+        }
+    
+        .namee{
+            display: flex;
+            column-gap: 2px;
+        }
+        .selectt{
+            display: flex;
+             column-gap: 2px;
+           
+        }
+        #city,#country{
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <h2>Registration Form</h2><br>
+        <div class="formitems">
+            <span class="namee">
+                <span>
+                    <label for="firstname">First Name</label>
+                    <input type="text" id="firstname">
+                </span>
+                <span>
+                    <label for="lastname">Last Name</label>
+                    <input type="text" id="lastname">
+                </span>
+            </span>
+            <br>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email"><br><br>
+
+            <label for="Phone">Phone</label><br>
+            <input type="text" id="Phone"><br><br>
+
+            <span class="selectt">
+                <span>
+                    <label for="city">City</label><br>
+                    <select id="city">
+                        <option>Indore</option>
+                        <option>Bhopal</option>
+                        <option>Bina</option>
+                    </select>
+                </span>
+                <span>
+                    <label for="country">Country</label><br>
+                    <select id="country">
+                        <option>India</option>
+                        <option>China</option>
+                        <option>Japan</option>
+                    </select>
+                </span>
+            </span>
+            <br><br>
+            <button>Get Started</button>
+        </div>
+    </form>
+</body>
+
+</html>
