@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 30px 2px 30px;
+}
+.nav1{
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+    font-size: 13px;
+}
+.nav1 img{
+    width:8vw;
+    height: 8vh;
+}
+.bg-in img{
+    width:100%;
+    height: 70vh;
+    position: absolute;
+    top: 40px;
+}
+.ontop img{
+    position: absolute;
+    top: 60px;
+    left:1050px;
+    width: 40px;
+}
+main{
+    display: flex; 
+    justify-content: center;  
+}
+.main1{
+    position: absolute;
+    top: 450px;
+    color: gold;       
+    font-size: 1.5em;
+}
+.main1 img{
+    width: 250px;
+}
+.insidemain1{
+    display: flex; 
+    justify-content: center;
+    position: absolute;
+    top: 450px;
+    color: gold;
+    text-align: center;
+}
+.insidemain1 img{
+    width: 250px;
+    margin-top: 40px;
+}
+.box{
+    position: absolute;
+    top: 800px;
+    border: 2px solid goldenrod;
+    color: gold;
+    width: 500px;
+    height: 100px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+i{
+    color: red; 
+}
+.main2 img{
+    width: 250px;
+}
+.main2{ 
+    position: absolute;
+    top: 1000px;
+    color: gold;
+    font-size: 1.5em;
+}
+.insidemain2 img{
+    width: 250px;
+    margin-top: 40px;
+}
+.insidemain2{
+    display: flex; 
+    justify-content: center;
+    position: absolute;
+    top: 1000px;
+    gap: 20px;  
+}
+.insidemain2 img{
+    width: 250px;
+    margin-top: 100px;
+    z-index:2;
+}
+.behindimg{
+    position: absolute;
+    left: -120px;
+    top:-100px ;
+    z-index:1;
+}
+#setback{
+    z-index:2;
+}
+.redeem{
+    display: flex; 
+    justify-content: center;
+    position: absolute;
+    top: 1460px;
+    gap: 20px;
+    color: gold;
+}
+.redeemp{
+     display: flex; 
+    justify-content: center;
+    position: absolute;
+    top: 1472px;
+    gap: 130px;
+    color: gold;
+     
+}
+.redeem img{
+    width: 180px;
+} 
+
+.cards{
+    position: absolute;
+    top: 1520px;
+    right: 650px;
+    color: white;
+    font-size: 15px;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    width: 450px;
+    padding: 10px 10px 15px 10px;
+}
+.cards1{
+    position: absolute;
+    top: 1520px;
+    color: white;
+    font-size: 15px;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    width: 450px;
+    padding: 10px 10px 15px 10px;
+}
+.cards2{
+    position: absolute;
+    top: 1900px;
+    right: 650px;
+    color: white;
+    font-size: 15px;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    width: 450px;
+    padding: 10px 10px 15px 10px;
+}
+.cards3{
+    position: absolute;
+    top: 1900px;
+    left: 640px;
+    color: white;
+    font-size: 15px;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    width: 450px;
+    padding: 10px 10px 15px 10px;
+}
+.size img{
+    width:30px;
+}
+#lapsize{
+    width:200px;
+}
+#lapsize1{
+    width: 200px;
+}
+#lapsize2{
+    width: 200px;
+}
+#lapsize3{
+    width: 200px;
+}
+.card1f{
+    display: flex; 
+    justify-content: center;
+}
+.bottomline{
+    text-align: center;
+}
+.bottomline button{
+    background-color: rgb(237, 42, 42);
+    border-radius: 12px;
+    padding: 3px 13px 3px 13px;
+}
+.endmain{
+    position: absolute;
+    bottom: -1850px;
+    color: rgb(188, 187, 187);
+}
+footer{
+    padding:50px;
+}
+.footergray {
+    color: rgb(180, 176, 176);
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.logoearth img{
+     height: 12px;
+    width: 12px;
+}
+.flexgray {
+    display: flex;
+    font-size: 12px;
+    color: rgb(133, 133, 133);
+    column-gap: 130px;
+    justify-content: start;
+}
+footer p {
+    font-size: 11px;
+    color: rgb(67, 66, 66);
+}
+.logos img{
+    height: 20px;
+    width: 20px;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+}
+.copyright-right{
+    display: flex;
+    gap:12px;
+}
+.logoearth{
+    display: flex;
+}
