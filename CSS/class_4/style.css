@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+
+}
+
+.header {
+    width: 100%;
+    height: 40px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.navbar {
+    width: 98%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 600;
+}
+
+.left-navbar {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.right-navbar {
+
+    width: 68%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+#button1nav{
+    background-color: black; 
+    color: white;
+    border-radius: 4px; 
+    padding: 2px 4px 2px 4px;
+}
+#button2nav{
+     border-radius: 4px; 
+    padding: 2px 4px 2px 4px;
+}
+.right-item {
+    font-size: 15px;
+}
+
+.ra {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#searchbar {
+    width: 250px;
+    height: 25px;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    background-color: rgb(245, 239, 239);
+    font-size: 15px;
+}
+.section-1 {
+    width: 100%;
+    height: 100%;
+}
+.sction-1-content {
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 7px;
+    height: 140px;
+    margin-top: 2em;
+}
+.content-section1 {
+    padding: 0px 10px 0px 10px;
+}
+.img1-logo {
+    width: 20%;
+}
+.center-section-content {
+    padding-top: 3em;
+    width: 50%;
+}
+.last-section-1 {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+/* Section-2 */
+.section-2-container {
+    margin-top: 4em;
+    width: 100%;
+}
+.section-2-main-content {
+    width: 96%;
+    background-color: rgb(43, 41, 41);
+    margin: 0 auto;
+    padding-top: 1.8em;
+    border-radius: 10px;
+}
+.container-section-2 {
+    width: 90%;
+    margin: 0 auto;
+}
+.container-section-2 img {
+    width: 100%;
+    height:40em ;
+}
+.container-section-3 video{
+     width: 100%;
+    height:40em ;
+}
+.section3 {
+    margin-left: 1.8em;
+    margin-top: 2em;
+    position: relative;
+}
+.p-size{
+    font-size: 40px;
+    font-weight: bold;
+}
+.cards{
+    width: 45%;
+    height: 10%;
+    background-color: rgb(43, 41, 41);
+    padding-top: 1.8em;
+    padding-bottom: 1.8em;
+    border-radius: 10px; 
+}
+.imgcontainer{
+    width: 80%;
+    margin: 0 auto;
+}
+.card-flex{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    gap: 64px; 
+    flex-wrap: wrap; 
+}
+.fixed-flex{
+    display: flex;
+    gap: 1em;
+    justify-content: center;  
+}
+.fixed-flex p{
+    border: 2px solid rgb(63, 63, 62);
+    color: white;
+    padding: 4px 8px 4px 4px;
+}
+.fixed-bg{
+    background-color: rgb(86, 83, 83);
+    width:500px;
+    height: 3em;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 2em;
+    position: fixed;
+    bottom: 2em;
+}
+.fixed-2{
+    background-color: rgb(41, 41, 41);
+    width:300px;
+    height: 7em;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 2em;
+    position: fixed;
+    bottom: 2em;
+    left: 60em;
+    color: white;
+}
+.section-2-container p{
+     font-weight: 900;
+    font-size: 24px;
+    margin-left: 1em;
+}
+.section-end-text{
+    display: flex;
+    gap: 20em;
+    margin-left:2em;
+}
+
+footer{
+    width: 98%;
+    
+    margin: 0 auto;
+    margin-top: 3em;
+
+}
+.footertop{
+    display: flex;
+    justify-content: start;
+    gap: 12em;
+}
+.footerbot{
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 5em;
+    margin-top: 2em;
+}
+.left-footer{
+    display: flex;
+    gap: 1em;
+}
+.right-footer{
+    display: flex;
+    gap: 1em;
+}
